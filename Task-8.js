@@ -18,11 +18,11 @@ console.log(appointment);
 //MULTI-COMPANY MEETING TIME
 let date=new Date();
 console.log("INDIA");
-console.log(date.toLocaleString("en-IN",{timezone:"asia/kolkata"}));
+console.log(date.toLocaleString("en-IN",{timezone:"Asia/Kolkata"}));
 console.log("New York");
-console.log(date.toLocaleString("en-US",{timeZone:"america/new_york"}));
+console.log(date.toLocaleString("en-US",{timeZone:"America/New_York"}));
 console.log("Tokyo");
-console.log(date.toLocaleString("ja-JP",{timezone:"asia/japan"}));
+console.log(date.toLocaleString("ja-JP",{timezone:"Asia/Japan"}));
 
 //TASK-4
 //PRODUCT WARRANTY EXPIRY
